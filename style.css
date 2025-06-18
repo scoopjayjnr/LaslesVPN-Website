@@ -19,7 +19,7 @@ img{
 
 section{
     padding: 15px 75px;
-    margin-top: 3rem;
+    margin-top: 5rem;
 }
 
 header{
@@ -208,4 +208,97 @@ nav ul li a:hover{
 
 .feature-text ul li{
     color: #4F5665;
+}
+
+.feature-text ul li span i{
+    color: #2FAB73;
+    font-size: 2rem;
+    padding-right: 1.5rem;
+}
+
+.feature-text ul li {
+    font-size: 1.2rem;
+}
+
+.plan-container{
+    position: relative;
+    align-items: center;
+    color: #0B132A;
+}
+
+.plan-head{
+    font-size: 3rem;
+    text-align: center;
+    padding-bottom: 1.2rem;
+}
+
+.plan-p{
+    text-align: center;
+    color: #4F5665;
+}
+
+.plan-feature{
+    width: 80%;
+    margin: 75px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 25px;
+}
+
+.plan{
+    background-color: #FFFFFF;
+    border: 2px solid #DDDDDD;
+    border-radius: 10px;
+    padding: 80px 5px;
+    text-align: center;
+}
+
+.plan-A{
+    justify-items: center;
+}
+
+.plan-A img{
+    width: 100%;
+    height: auto;
+    padding-bottom: 2rem;
+}
+
+.plan-A h3{
+    font-size: 1.5rem;
+    padding-bottom: 1.2rem;
+    font-weight: 500;
+}
+
+.plan-A span i{
+    margin-right: 1rem;
+    align-items: right;
+    color: #2FAB73;
+}
+
+.plan-A .plan-paragraph p{
+    line-height: 2rem;
+    text-align: left;
+    color: #4F5665;
+    padding-bottom: 0.3rem;
+}
+
+ .opt{
+    padding-top: 8rem;
+}
+
+.opt h4{
+    font-size: 1.5rem;
+    padding-bottom: 1.3rem;
+    font-weight: 500;
+}
+
+.opt .select{
+    padding: 0.6rem 3.5rem;
+    color: #F53838;
+    font-weight: 500;
+    font-size: 1.1rem;
+    background-color: transparent;
+    border: 2px solid #F53838;
+    border-radius: 50px;
+    cursor: pointer;
 }
