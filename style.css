@@ -124,6 +124,7 @@ nav ul li a:hover{
     position: relative;
     left: 2.5rem;
     box-shadow: -6px 24px 50px -17px rgba(0,0,0,0.2);
+    
 }
 
 .user{
@@ -242,7 +243,8 @@ nav ul li a:hover{
     margin: 75px auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 25px;
+    grid-gap: 35px;
+    
 }
 
 .plan{
@@ -252,6 +254,15 @@ nav ul li a:hover{
     padding: 80px 5px;
     text-align: center;
 }
+
+.plan:nth-child(3){
+    background-color: #FFFFFF;
+    border: 2px solid #F53838;
+    border-radius: 10px;
+    padding: 80px 5px;
+    text-align: center;
+}
+
 
 .plan-A{
     justify-items: center;
@@ -292,6 +303,13 @@ nav ul li a:hover{
     font-weight: 500;
 }
 
+.opt h4 span{
+    font-size: 1.5rem;
+    padding-bottom: 1.3rem;
+    font-weight: 300;
+    color: #4F5665;
+}
+
 .opt .select{
     padding: 0.6rem 3.5rem;
     color: #F53838;
@@ -301,4 +319,70 @@ nav ul li a:hover{
     border: 2px solid #F53838;
     border-radius: 50px;
     cursor: pointer;
+}
+
+.opt .selected{
+    padding: 0.7rem 4rem;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 1.1rem;
+    background-color: #F53838;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    box-shadow: -6px 14px 20px -10px rgba(0,0,0,0.3);
+}
+
+/* .plan:hover{
+    transform: scale(1.1);
+} */
+
+.global-container{
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+
+.global-container h3{
+    color: #0B132A;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 400;
+    padding-bottom: 3rem;
+    max-width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 4rem;
+}
+
+.global-container p{
+    text-align: center;
+    color: #4F5665;
+    padding-bottom: 10rem;
+    max-width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.global-container img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: auto;
+    padding-bottom: 4rem;
+}
+
+.global-container .logos img{
+    width: 12%;
+    height: auto;
+}
+
+.global-container .logos{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.5rem;
 }
